@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mahedi's Online School</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f3f7ff;
+      color: #172b4d;
+    }
+    header {
+      background: #1769e0;
+      color: white;
+      padding: 22px 15px;
+      text-align: center;
+    }
+    header h1 { margin: 0; font-size: 25px; }
+    header p { margin-bottom: 0; }
+    main { max-width: 900px; margin: auto; padding: 20px; }
+    .hero {
+      background: white;
+      padding: 28px 18px;
+      border-radius: 16px;
+      text-align: center;
+      box-shadow: 0 4px 15px #0000000c;
+    }
+    .hero h2 { color: #1769e0; }
+    .courses {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 14px;
+      margin-top: 22px;
+    }
+    .card {
+      background: white;
+      border-radius: 14px;
+      padding: 20px 12px;
+      text-align: center;
+      border: 1px solid #dce7f8;
+    }
+    .card h3 { color: #1769e0; }
+    .card a {
+      display: inline-block;
+      background: #1769e0;
+      color: white;
+      text-decoration: none;
+      padding: 9px 16px;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      padding: 22px;
+      color: #62738b;
+    }
+    @media (max-width: 420px) {
+      .courses { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🎓 Mahedi's Online School</h1>
+    <p>শিখব, বুঝব, সফল হব</p>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>স্বাগতম তোমার অনলাইন স্কুলে!</h2>
+      <p>ঘরে বসে শেখো, অনুশীলন করো এবং নিজের স্বপ্ন পূরণ করো।</p>
+    </section>
+
+    <section class="courses">
+      <div class="card">
+        <h3>📘 HSC</h3>
+        <p>একাদশ ও দ্বাদশ শ্রেণি</p>
+        <a href="#hsc">কোর্স দেখো</a>
+      </div>
+      <div class="card">
+        <h3>📗 SSC</h3>
+        <p>নবম ও দশম শ্রেণি</p>
+        <a href="#ssc">কোর্স দেখো</a>
+      </div>
+      <div class="card">
+        <h3>📚 JSC</h3>
+        <p>স্কুলের পড়াশোনা</p>
+        <a href="#jsc">কোর্স দেখো</a>
+      </div>
+      <div class="card">
+        <h3>🎯 Admission</h3>
+        <p>ভর্তি পরীক্ষার প্রস্তুতি</p>
+        <a href="#admission">কোর্স দেখো</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 Mahedi's Online School
+    <p>সবার জন্য সহজ শিক্ষা 💙</p>
+  </footer>
+</body>
+</html>
